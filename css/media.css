@@ -1,0 +1,57 @@
+@media screen and (max-width: 1020px){
+
+
+}
+
+@media screen and (max-width: 768px){
+
+
+    .filter-wrapper{
+        flex-direction: column;
+        display: flex;
+        
+         width: 100%; 
+         align-items: center;
+        box-sizing: content-box;
+    }
+
+    .filter-images {
+
+        flex-direction: column;
+        display: flex;
+        
+        width: 100%; 
+        
+        box-sizing: content-box;
+        align-items: center;
+
+        row-gap: 1.5rem;
+
+    }
+    .filter-btns {
+        display: flex;
+        
+        align-items: center;
+        width: 100%;; 
+        box-sizing: content-box;
+
+        row-gap: 1.5rem;
+
+    }
+
+}
+
+
+@media screen and (max-width: 510px){
+
+    .filter-images{
+        display: flex;
+        flex-direction: column;
+        align-items: normal;
+    }
+    .filter-btns {
+        display: flex;
+        flex-direction: column;
+        align-items: normal;
+    }
+}
